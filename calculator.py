@@ -22,7 +22,7 @@ def operator_click(value):  # 연산자를 눌렀을 때
     op = operator[value]
     if op == 5: # C
         clear()
-    elif disValue == 0
+    elif disValue == 0:
         opPre = 0
     elif opPre == 0:
         opPre = op
